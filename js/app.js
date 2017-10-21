@@ -1,14 +1,16 @@
-console.log("działa!")
-var myName = 'Ania';
-console.log('myName', myName);
-var girls = ['Asia', 'Sylwia', 'Agata', 'Ola'];
-console.log(girls[1]);
-var a = 4;
-var b = 6;
-if (b>a){
-console.log("hurra");
-}else{
-console.log("not");
-}
-
-for (var i = 0; i<=girls.length-1; i++){console.log(girls[i])};
+'use strict';
+document.addEventListener('DOMContentLoaded', function() {
+    // Dropdown menu in navigation
+   var elementWithDropdown = document.querySelector('.for-dropdown');
+   console.log(elementWithDropdown);
+   var dropdown = document.querySelector('.dropdown');
+   console.log(dropdown);
+   elementWithDropdown.addEventListener('mouseover', function() {
+        // console.log('myszka jest tu');
+       
+       dropdown.style.display = "block";
+    });
+    elementWithDropdown.addEventListener('mouseout', function() {
+        dropdown.style.display = "none";
+    });
+});
