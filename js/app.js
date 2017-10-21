@@ -2,9 +2,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Dropdown menu in navigation
    var elementWithDropdown = document.querySelector('.for-dropdown');
-   console.log(elementWithDropdown);
+   // console.log(elementWithDropdown);
    var dropdown = document.querySelector('.dropdown');
-   console.log(dropdown);
+   // console.log(dropdown);
    elementWithDropdown.addEventListener('mouseover', function() {
         // console.log('myszka jest tu');
        
